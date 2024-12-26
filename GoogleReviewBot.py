@@ -20,7 +20,7 @@ class GoogleReviewBot:
 
     def initialize(self):
         self.i = 0
-        PlaceURL = "--" #ENTER YOUR LINK HERE
+        PlaceURL = "https://www.google.com/search?q=tnl+cafe&sca_esv=17318cc11200120d&biw=1879&bih=969&tbm=lcl&sxsrf=ADLYWIIblDYcRUOd_MtwrkzptGt2NA3Lzw%3A1735212656488&ei=cD5tZ4a4HZ2sseMP_-6poAg&oq=tnl+ca&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIgZ0bmwgY2EqAggAMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjsIFCpDFj7EnAAeACQAQCYAZkBoAHoBaoBAzMuNLgBA8gBAPgBAZgCB6ACgQbCAgQQIxgnwgIKEAAYgAQYQxiKBcICEBAAGIAEGLEDGEMYgwEYigXCAgsQABiABBixAxiDAZgDAIgGAZIHAzIuNaAH1ik&sclient=gws-wiz-local#rlfi=hd:;si:3281324097293305655,l,Cgh0bmwgY2FmZUiMg5Czs6-AgAhaFBAAEAEYASIIdG5sIGNhZmUyAm1zkgEEY2FmZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VNdE1VcExlVWxCRUFFqgE_EAEqDCIIdG5sIGNhZmUoKDIfEAEiG_tP5qC1qpf9PJN2i93QkruLP9FBpsCI25Q6uTIMEAIiCHRubCBjYWZl-gEECCcQQw,y,hzEty7yUZVQ;mv:[[3.04728807731903,101.64586343213718],[3.0469281226809706,101.64550296786285]]" #ENTER YOUR LINK HERE
         self.driver = uc.Chrome()
         self.driver.delete_all_cookies()
         self.urls = ["https://accounts.google.com/signin/v2/identifier?hl=tr&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dgoogle%26oq%3Dgoogle%26aqs%3Dchrome.0.69i59l3j0i271l2j69i60j69i65j69i60.706j0j1%26sourceid%3Dchrome%26ie%3DUTF-8&ec=GAZAAQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin",PlaceURL]
